@@ -3,7 +3,7 @@ body {
 	margin: 1% 20%;
 	/* background-color: white; */
 	opacity: 80%;
-	background-image: url("http://photos2.demandstudios.com/dm-resize/photos.demandstudios.com%2Fgetty%2Farticle%2F110%2F8%2F78365701_XS.jpg?w=300&h=10000&keep_ratio=1");
+	background-image: url("http://i.huffpost.com/gen/1352682/images/o-LOVE-PICKLES-facebook.jpg");
 	font-family: Lucida, Helvetica, sans-serif;
 	background-attachment: fixed;
 }
@@ -27,7 +27,7 @@ div.navigation > ul > li {
 
 
 .header{
-	width:73px;
+	width:73%;
 	padding: 10px;
 	color: green;
 }
