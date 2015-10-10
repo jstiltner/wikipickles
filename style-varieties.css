@@ -15,8 +15,9 @@ div {
 div.navigation {
 	float: left;
 	list-style-type: none;
-	width: 20%;
-	border: 1px, solid black;
+	width: 20%; min-width: 60px;
+	border: 20px, solid black;
+	margin-left:60px;
 	border-radius: 2px;
 }
 
@@ -47,7 +48,7 @@ div.navigation > ul > li {
 div.header, div.article1, div.topbox, div.bottombox{
 	float: right;
 	padding:10px;
-	width: 73%;
+	width: 68%;
 	border-radius: 2px;
 	margin-bottom: 15px;
 }
