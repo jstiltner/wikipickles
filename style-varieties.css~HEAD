@@ -27,7 +27,7 @@ div.navigation > ul > li {
 
 
 .header{
-	width:73px;
+	width:73%;
 	padding: 10px;
 	color: green;
 }

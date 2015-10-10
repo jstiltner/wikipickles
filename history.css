@@ -1,6 +1,5 @@
-
 body {
-	width:80%;
+	width: 80%;
 	background-image: url("http://i.huffpost.com/gen/1352682/images/o-LOVE-PICKLES-facebook.jpg");
 	font-family: Lucida, Helvetica, sans-serif;
 	background-attachment: fixed;
@@ -9,15 +8,13 @@ body {
 div {
 	background-color: white;
 	opacity: .75;
-	
 }
 
 div.navigation {
 	float: left;
 	list-style-type: none;
-	width: 20%; min-width: 60px;
-	border: 20px, solid black;
-	margin-left:60px;
+	width: 20%;
+	border: 1px solid black;
 	border-radius: 2px;
 }
 
@@ -26,30 +23,30 @@ div.navigation > ul > li {
 	line-height: 2em;
 }
 
-.pickleman{
-
-}
-
-.header{
-	float:right;  
-	width:73%;
+header {
 	color: green;
-	text-align: center;	
-
+	text-align: center;
 }
 
-.topBox{
-	margin-bottom: 12px;
-}
-
-.bottomBox{
-}
-
-div.header, div.article1, div.topbox, div.bottombox{
+div.header, div.articleName, div.articleBody {
 	float: right;
-	padding:10px;
-	width: 68%;
-	border-radius: 2px;
+	width: 73%;
+	padding: 10px;
 	margin-bottom: 15px;
+	border-radius: 2px;
 }
 
+div.foot {
+	float: right;
+	clear: both;
+	width: 100%;
+	background-color: white;
+	opacity: .5;
+	margin-top: 300px;
+	height: 50px;
+}
+
+footer {
+	padding: 15px;
+	text-align: center;
+}
