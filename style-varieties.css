@@ -1,6 +1,5 @@
 
 body {
-	width:80%;
 	background-image: url("http://i.huffpost.com/gen/1352682/images/o-LOVE-PICKLES-facebook.jpg");
 	font-family: Lucida, Helvetica, sans-serif;
 	background-attachment: fixed;
@@ -9,29 +8,41 @@ body {
 div {
 	background-color: white;
 	opacity: .75;
+/*I RENDERED THIS PART OF THE CODE IN ONE PLACE, RATHER THAN THREE.*/
+	border-radius: 2px;
 	
 }
-
-div.navigation {
+/*ALL OF THESE SETTINGS FOR THE SPACING HAVE BEEN TWEAKED*/
+.navigation {
 	float: left;
-	list-style-type: none;
-	width: 20%;
-	border: 1px, solid black;
-	border-radius: 2px;
+	width: 20%; min-width: 60px;
+	margin:0 0 0 4%;
+}
+/*THIS IS THE NEWER CSS TO GO WITH THE MENU CHANGES TO THE HTML LATE FRIDAY NIGHT.*/
+.menu{
+	text-indent: 2.2em;
+	padding: 35px 4% 100px 4%;
 }
 
-div.navigation > ul > li {
-	list-style-type: none;
-	line-height: 2em;
+.button{
+	font-family: "Courier New", Lucida, Helvetica ;
+	background-color: navajowhite;
+	opacity:.90;
+	border-radius: 4px;
+	vertical-align: center;
+	border-style:double;
+	line-height: 1.8em;
+	font-size: 11pt;
 }
 
-.pickleman{
-
+.imagebox{
+	text-align: center;
+	opacity: .9;
 }
-
+/*END OF NEW CSS*/
 .header{
 	float:right;  
-	width:73%;
+	width:64%; min-width:220px;
 	color: green;
 	text-align: center;	
 
@@ -47,8 +58,22 @@ div.navigation > ul > li {
 div.header, div.article1, div.topbox, div.bottombox{
 	float: right;
 	padding:10px;
-	width: 73%;
-	border-radius: 2px;
-	margin-bottom: 15px;
+	width: 64%;
+	margin: 0 5% 15px 0;
 }
 
+div.foot {
+	float:right;
+    width: 110%;
+    background-color: white;
+    opacity: .5;
+    margin: 300px 0 0 0;
+    height: 50px;
+}
+
+footer{
+	padding: 12px;
+	text-align: center;
+	font-variant:bold;
+	font-size: 15pt;
+}
